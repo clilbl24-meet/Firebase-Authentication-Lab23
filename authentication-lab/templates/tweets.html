@@ -1,0 +1,9 @@
+<head>
+	<title>all tweets!</title>
+</head>
+<body>
+	{%for tweet in tweets%}
+	<h1>tweet title: {{tweets[tweet]["title"]}}</h1>
+	<h2> {{tweets[tweet]["text"]}}</h2>
+	{%endfor%}
+</body>
